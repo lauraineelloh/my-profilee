@@ -1,0 +1,146 @@
+/* Colors and fonts */
+body {
+ background: rgb(200, 209, 204);
+ color: rgb(74, 17, 28);
+   font-family: 'Lora', serif;
+   font-size: 17px;
+}
+
+h1 {
+
+ color: rgb(89, 75, 62);
+ font-family: 'Potta One', cursive;
+ font-size: 57px;
+}
+
+h2 {
+
+ color: rgb(89, 75, 62);
+ font-family: 'Potta One', cursive;
+ font-size: 22px;
+ font-weight: lighter;
+ }
+
+
+a{
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none;
+	color: rgb(252, 81, 48);
+	font-weight: 700px;
+	font-size: 20px;
+
+}
+
+a :hover { 
+ color: rgba(230, 230, 230)
+
+}
+
+
+div{
+
+    background: whitesmoke;
+    margin: 5px auto;
+    padding: 78px;
+    box-shadow: 15px 20px 42px rgb(254, 179, 28);
+    
+}
+
+#pic{
+	width: 300px;
+	border-radius: 70px
+	margin:1px;
+
+}
+
+h3{
+
+	font-weight: bold;
+	font-family: arial, serif;
+	font-size: 50px;
+
+}
+
+.card-white{
+
+	text-align: center;
+	background-color: rgb(whitesmoke);
+	padding: 30px;
+	box-shadow : 1px 14px 35px rgba(242, 203, 125);
+	border-radius: 45px;
+	margin: 15px 3px; 
+
+}
+
+
+.container{
+   width: 775px;
+   margin: 35px auto;
+
+
+}
+
+
+@media (max-width: 500px){
+	 .container{
+	 	width: 400px;
+
+	 }
+}
+@media (max-width: 760px){
+     .container{
+     	width: 600px;
+
+    }
+}
+
+
+.img-circle{
+	border-radius: 40px;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 45px;
+}
+
+.btn-blue{
+	background-color: rgb(102, 72, 13);
+	color: white;
+	padding: 15px 18px; 
+	border-radius: 10px;
+
+}
+
+.btn-blue:hover {
+ background-color:rgb(191, 147, 66);
+ color: white;	
+}
+
+.list-inline {
+
+	list-style: :none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+
+	display: inline;
+	padding: 20px
+}
+
+.list-inline i {
+	font-size: 65px;
+	color: rgb(102, 72, 13)
+}
+
+.list-inline i:hover {
+	color: rgb(191, 147, 66);
+}
+
+
+
+
+#introduction p {
+ margin-top: 30px;
+}
+
+
